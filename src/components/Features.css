@@ -1,0 +1,53 @@
+.features{
+    background: #fff;
+    padding: 80px 24px;
+    font-family: "Poppins", sans-serif;
+}
+.features h1{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 600;
+    color:#2b2f38;
+    line-height: 1.2;
+    max-width: 1000px;
+    margin: 0 auto 70px;
+}
+.features-container{
+    display: flex;
+    gap:40px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.card h2{
+    max-width: 250px;
+    font-size: 28px;
+    line-height: 1.4;
+    margin: 20px 0;
+}
+.card span{
+    max-width: 300px;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.card svg{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    color:#eb7a08;
+}
+
+ 
+
+
+    

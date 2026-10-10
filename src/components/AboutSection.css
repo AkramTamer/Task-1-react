@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600;700&display=swap");
+
+.info-card--blue{
+    display: flex;
+    width: 100%;
+    min-height: 460px;
+    background: #1c5bd0;
+    color:#fff;
+    font-family: "Mulish", sans-serif;
+    overflow: hidden;
+}
+.info-card--orange{
+    flex:0 0 52%;
+    background: #e8883a;
+    border-radius: 0 30px 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 90px 40px;
+    box-sizing: border-box;
+}
+.blue-content{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 90px 40px;
+    box-sizing: border-box;
+
+}
+.info-card--blue h2{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0 0 30px;
+}
+.info-card--blue p{
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 2;
+    margin: 0 0 30px;
+}
+.info-card--blue button{
+    background: #f5f5f5;
+    color:#222;
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+    padding: 16px 48px;
+    font-family: inherit;
+    font-size: 1.15rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+.info-card--blue button:hover{
+    background: transparent;
+    color:#fff;
+    border-color: #fff;
+}
+
+
