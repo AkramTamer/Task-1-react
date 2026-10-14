@@ -44,9 +44,7 @@
     text-decoration: none;
     border-bottom: 2px solid #333;
 }
-.support-credita:hover::after{
-    background: #e8883a;
-}
+
 .support-content button{
     background: #e8883a;
     color:#fff;

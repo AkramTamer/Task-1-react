@@ -46,6 +46,19 @@
     margin-bottom: 20px;
     color:#eb7a08;
 }
+.card-arrow{
+    display: inline-block;
+    color:#eb7a08;
+    transition: transform 0.3s;
+}
+.card-arrow svg {
+    width: 50px;
+    height: 50px;
+}
+.card-arrow:hover{
+    transform: translateY(-8px);
+    
+}
 
  
 
